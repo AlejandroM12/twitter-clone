@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <title>Twitter</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-md-3 h-100 top-0 bg-[#fff] d-flex flex-column flex-nowrap justify-center items-center left-flex-container pt-5"
+        >
+          <div class="nav-links">
+            <ul class="nav d-flex justify-center items-start flex-column">
+              <li class="nav-item">
+                <a class="nav-link logo" href="#">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link current-page" href="#">
+                  <i class="fas fa-home"></i> Inicio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-hashtag"></i> Explorar
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="far fa-bell"></i> Notificaciones
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="far fa-envelope"></i> Mensajes
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="far fa-bookmark"></i> Listas
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="far fa-list-alt"></i> Verificado
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="far fa-user"></i> Perfil
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fas fa-ellipsis-h more-icon"></i> Más opciones
+                </a>
+              </li>
+            </ul>
+            <div class="tweet pt-4">
+              <a class="btn btn-primary btn-tweet" href="#">Twittear</a>
+            </div>
+          </div>
+
+          <div class="profile-box">
+            <img class="img-fluid" src="./assets/profile.jpg" alt="profile" />
+            <div class="profile-link">
+              <p class="full-name">Jhon</p>
+              <p class="user-name">@JhonDoe_</p>
+            </div>
+            <div class="options-icon"><i class="fas fa-ellipsis-h"></i></i></div>
+          </div>
+        </div>
+
+        <div class="col-md-6 center-content">
+          <div class="home">
+            <h1 class="main-text">Inicio</h1>
+          </div>
+          <div class="option-tweets">
+            <div class="for-you"><p>Para ti</p></div>
+            <div class="following"><p>Siguiendo</p></div>
+          </div>
+          <div class="post-tweet">
+            <form action="">
+              <div class="form-group-1">
+                <img
+                  class="img-fluid"
+                  src="./assets/profile.jpg"
+                  alt="profile-pics"
+                />
+                <input type="text" placeholder="¿¡Qué está pasando!?" />
+              </div>
+              <div class="form-group-2">
+                <div class="post-icons">
+                  <i class="far fa-image"></i>
+                  <i class="far fa-file-image"></i>
+                  <i class="fas fa-stream"></i>
+                  <i class="far fa-smile"></i>
+                  <i class="far fa-calendar-check"></i>
+                </div>
+                <button class="btn btn-primary" type="submit">Twittear</button>
+              </div>
+            </form>
+          </div>
+          <!-- TWEETS -->
+          <div class="tweets">
+            <div class="user-pics">
+              <img src="./assets/profile1.jpg" alt="user1" />
+            </div>
+            <div class="user-content-box">
+              <div class="user-names">
+                <hi class="full-name">Patrick Montgomery</hi>
+                <p class="user-name">@patrickm</p>
+                <p class="time">· 1hr</p><i class="fas fa-ellipsis-h"></i>
+              </div>
+
+              <div class="user-content">
+                <p>
+                  If the whole world was blind, how many people would you
+                  impress? <a href="#">#Loremipsum</a>
+                  <a href="#">#loremlorem</a> <a href="#">#loremlorem</a>
+                </p>
+              </div>
+
+              <div class="content-icons">
+                <i class="far fa-comment blue"> 2k</i>
+                <i class="fas fa-retweet green"> 6k</i>
+                <i class="far fa-heart red"> 10k</i>
+                
+              </div>
+            </div>
+          </div>
+          <div class="tweets">
+            <div class="user-pics">
+              <img src="./assets/profile2.jpg" alt="2" />
+            </div>
+            <div class="user-content-box">
+              <div class="user-names">
+                <hi class="full-name">Brent Craig</hi>
+                <p class="user-name">@brentcraig</p>
+                <p class="time">· 1hr</p><i class="fas fa-ellipsis-h"></i>
+              </div>
+
+              <div class="user-content">
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Nobis nulla labore mollitia quasi soluta tempora.
+                  <a href="#">#Loremipsum</a> <a href="#">#lorem</a>
+                  <a href="#">#loremlorem</a>
+                </p>
+              </div>
+
+              <div class="content-icons">
+                <i class="far fa-comment blue"> 2k</i>
+                <i class="fas fa-retweet green"> 6k</i>
+                <i class="far fa-heart red"> 10k</i>
+                
+              </div>
+            </div>
+          </div>
+          <div class="tweets">
+            <div class="user-pics">
+              <img src="./assets/profile3.jpg" alt="user3" />
+            </div>
+            <div class="user-content-box">
+              <div class="user-names">
+                <hi class="full-name">Avondale Ave</hi>
+                <p class="user-name">@avondaleave</p>
+                <p class="time">· 2hr</p><i class="fas fa-ellipsis-h"></i>
+              </div>
+
+              <div class="user-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas
+                  accusantium pariatur voluptates molestias?
+                  <a href="#">#Loremipsum</a> <a href="#">#lorem</a>
+                  <a href="#">#loremlorem</a>
+                </p>
+              </div>
+
+              <div class="content-icons">
+                <i class="far fa-comment blue"> 2k</i>
+                <i class="fas fa-retweet green"> 6k</i>
+                <i class="far fa-heart red"> 10k</i>
+                
+              </div>
+            </div>
+          </div>
+          <div class="tweets">
+            <div class="user-pics">
+              <img src="./assets/profile4.jpg" alt="user4" />
+            </div>
+            <div class="user-content-box">
+              <div class="user-names">
+                <hi class="full-name">Ramon Kuhn</hi>
+                <p class="user-name">@ramonkuhn</p>
+                <p class="time">· 2hr</p> <i class="fas fa-ellipsis-h"></i>
+              </div>
+
+              <div class="user-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Placeat, laudantium? <a href="#">#Loremipsum</a>
+                  <a href="#">#loremlorem</a> <a href="#">#loremlorem</a>
+                </p>
+              </div>
+
+              <div class="content-icons">
+                <i class="far fa-comment blue"> 2k</i>
+                <i class="fas fa-retweet green"> 6k</i>
+                <i class="far fa-heart red"> 10k</i>
+               
+              </div>
+            </div>
+          </div>
+          <div class="tweets">
+            <div class="user-pics">
+              <img src="./assets/profile5.jpg" alt="user 5" />
+            </div>
+            <div class="user-content-box">
+              <div class="user-names">
+                <hi class="full-name">Pecan St</hi>
+                <p class="user-name">@pecanst</p>
+                <p class="time">· 2hr</p><i class="fas fa-ellipsis-h"></i>
+              </div>
+
+              <div class="user-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Reiciendis, nobis. <a href="#">#loremipsum</a>
+                  <a href="#">#loremlorem</a> <a href="#">#loremlorem</a>
+                </p>
+              </div>
+
+              <div class="content-icons">
+                <i class="far fa-comment blue"> 2k</i>
+                <i class="fas fa-retweet green"> 6k</i>
+                <i class="far fa-heart red"> 10k</i>
+                
+              </div>
+            </div>
+          </div>
+          <!-- TWEETS -->
+          <div class="pagnation">
+            <a class="btn btn-primary" href="#">Cargar más</a>
+          </div>
+        </div>
+
+        <div class="col-md-3 right-sidebar right-flex-container ">
+          <div class="search-box">
+            <i class="fas fa-search"></i>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Buscar en Twitter"
+              icon="fas fa-search"
+            />
+          </div>
+          <aside class="get-verification">
+            <h2>Obtener verificación</h2>
+            <p>Suscríbete para desbloquear nuevas funciones.</p>
+            <a class="btn btn primary" href="#">Obtener verificiación</a>
+          </aside>
+          <aside class="trends">
+            <ul class="nav flex-column">
+              <li class="nav-list header">
+                <h2>Qué está pasando</h2>
+              </i>
+              <li class="nav-list">
+                <div class="trend-list">
+                  <p class="sub-text">Tendencia en Argentina</p>
+                  <p class="main-text">BOMBAZO</p>
+                  <p class="sub-text">1.888 Tweets</p>
+                </div>
+                <div class="trend-icon">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+              </li>
+              <li class="nav-list">
+                <div class="trend-list">
+                  <p class="sub-text">Deportes · Tendencia</p>
+                  <p class="main-text">Di María</p>
+                  <p class="sub-text">21,9 mil Tweets</p>
+                </div>
+                <div class="trend-icon">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+              </li>
+              <li class="nav-list">
+                <div class="trend-list">
+                  <p class="sub-text">Deportes · Tendencia</p>
+                  <p class="main-text">Messi</p>
+                  <p class="sub-text">135K Tweets</p>
+                </div>
+                <div class="trend-icon">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+              </li>
+              <li class="nav-list">
+                <div class="trend-list">
+                  <p class="sub-text">Deportes · Tendencia</p>
+                  <p class="main-text">Cristiano Ronaldo</p>
+                  <p class="sub-text">57,7 mil Tweets</p>
+                </div>
+                <div class="trend-icon">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+              </li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
