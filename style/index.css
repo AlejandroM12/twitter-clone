@@ -438,7 +438,6 @@ ul {
   flex-flow: row nowrap;
   justify-content: space-between;
   padding: 0.5rem 1rem;
-  border-bottom: 1px solid rgb(230, 236, 240);
 }
 .nav-list:hover {
   background: rgba(0, 0, 0, 0.03);
@@ -462,6 +461,12 @@ ul {
   flex-flow: column nowrap;
   width: 100%;
   border-radius: 15px;
+  margin-top: 1rem;
+}
+.trends .more {
+  color: #1a8cd8;
+  font-weight: 600;
+  cursor: pointer;
   margin-top: 1rem;
 }
 .trends .header {
