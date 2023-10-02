@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.2rem;
   line-height: 1.6;
 }
@@ -172,7 +172,7 @@ ul {
 }
 
 .option-tweets .for-you p::after {
-  content: "";
+  content: '';
   display: block;
   width: 100%;
   height: 3px;
@@ -751,4 +751,103 @@ ul {
   .right-sidebar {
     display: none !important;
   }
+}
+/* POST TWEET */
+.post-title-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.user-profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.user-profile-header img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+.user-profile-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.user-profile-header p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(101, 119, 134);
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 380px;
+}
+.card {
+  position: relative;
+  background: #fff;
+  max-width: 300px;
+  width: 350px;
+  margin: 20px;
+  border-radius: 2px;
+  box-shadow: 0 5px 25px rgb(1 1 1 / 10%);
+
+  margin: 0 auto;
+}
+
+.card-image {
+  max-height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.card-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card-info {
+  position: relative;
+  color: #222;
+  padding: 20px;
+}
+
+.card-info h3 {
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.card-info p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+.button-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding-top: 10px;
 }
